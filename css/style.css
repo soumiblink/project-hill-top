@@ -1,0 +1,291 @@
+body{
+
+  margin: 0;
+
+padding: 0;
+}
+
+header{
+  background-color:#2EB086;
+}
+
+.warp{
+
+max-width: 1170px;
+margin: 0 auto;
+padding: 0 50px;
+}
+
+.clearfix{
+
+  clear:both;
+  content: "";
+  display: table;
+}
+
+.main-header{
+  width: 100%;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+float: left;
+padding-top: 13px;
+padding-bottom: 10px;
+}
+
+.right ul li{
+display: inline-block;
+padding: 10px 15px 5px 15px;
+font-size: 17px;
+font-family: Montserrat;
+}
+
+.right a{
+text-decoration: none;
+color: #495371;
+}
+
+.right a:hover{
+color: #03045E;
+text-shadow: 0 0 0.8em #ffffff,0 0 0 .6em #21325E;
+}
+
+
+.banner{
+  position: relative;
+}
+
+.banner img{
+  height: 500px;
+  width: 100%;
+}
+
+.banner-content{
+position: absolute;
+transform: translate(59%,  -197%);
+font-size: 33px;
+font-family: Montserrat;
+color: #fff;
+text-shadow:0 0 0.8em #ffffff,0 0 0 .6em #21325E;
+float: left;
+text-align: center;
+}
+
+.card-section{
+  margin: 30px,  0;
+}
+
+h2{
+  padding-top: 30px;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+
+h1{
+text-align: center;
+}
+
+.row{
+  width: 100%;
+}
+
+.column{
+  width: 22%;
+  float: left;
+  text-align: center;
+  background-color:#2EB086;
+  margin: 11px;
+}
+
+.column img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 50px;
+}
+
+.image-bordar{
+border-top: 5px; solid white;
+}
+
+.card-para{
+  padding: 30px;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.card-section2{
+  margin: 30px,  0;
+}
+
+.column2{
+  width: 22%;
+  float: left;
+  text-align: center;
+  margin: 11px;
+}
+
+.column2 img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 250px;
+  width: 250px;
+  border-radius: 55px;
+}
+.column3{
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: 11px;
+  }
+
+
+.column3 img{
+  height: 250px;
+  width: 250px;
+  border-radius: 45px;
+}
+
+.column4{
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: 11px;
+  }
+
+  .column4 img{
+    height: 250px;
+    width: 250px;
+    border-radius: 45px;
+  }
+
+.card-section3{
+  background-color:#2EB086;
+}
+
+
+.card-section4{
+  background-color:#2EB086;
+}
+
+
+.our-company{
+  margin-bottom: 90px;
+}
+
+.company-description{
+text-align: center;
+margin-top: 80px;
+margin-bottom: 40px;
+}
+
+.company-description{
+padding-top: 10px;
+font-size: 17px;
+font-family: Montserrat
+}
+
+.our-company-row{
+  width: 100%;
+}
+
+.
+
+.about-text{
+line-height: 1.5;
+font-family: Montserrat;
+font-size: 15px;
+}
+
+.list{
+  margin-top: 15px;
+  padding-left: 0;
+  margin-bottom: 15px;
+}
+
+.list li{
+list-style: none;
+margin-top: 10px;
+}
+
+.arrow-point{
+  float: left;
+  height: 20px;
+}
+
+.points{
+  padding-left: 30px;
+}
+
+.our-company-image{
+  width: 90%;
+  float: left;
+  margin-left: 80px;
+}
+
+
+.our-company-column{
+  width: 45%;
+  float: left;
+  text-align: center;
+  margin: 11px;
+}
+
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#18ab29;
+  font-weight:bold;
+  border-top-left-radius:28px;
+  border-top-right-radius:28px;
+  border-bottom-left-radius:28px;
+  border-bottom-right-radius:28px;
+  text-shadow: 1px 1px 0px #2f6627;
+  background:#44c767;
+  padding: 10px;
+  margin-top:20px;
+}
+
+.buttonClass:hover {
+  background: #5cbf2a
+}
+
+footer{
+  width: 100%;
+background-color: #000000;
+text-decoration: none;
+color: #FDEFF4;
+text-align: center;
+padding: 80px auto;
+}
+
+.footer-column{
+  width: 22%;
+  float: left;
+  text-align: center;
+  margin: 11px;
+}
+
+h5{
+  text-decoration: none;
+  color: #06FF00;
+}
+
+
+.footer-colmun li a{
+text-decoration: none;
+color: #EFEFEF;
+}
+
+.footer-column li a:hover{
+  color: #EEEDDE;
+  text-shadow: 0 0 0.8em #ffffff,0 0 0 .6em #FBF8F1;
+}
